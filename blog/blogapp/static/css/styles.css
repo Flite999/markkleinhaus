@@ -1,0 +1,73 @@
+/* blogapp/static/css/styles.css */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(27, 39, 51);
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    color: rgb(27, 39, 51);
+    padding: 1rem;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar-header {
+    margin-bottom: 2rem;
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    color: rgb(27, 39, 51);
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.resume {
+    margin-left: 1rem;
+}
+
+#title {
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: 400;
+}
