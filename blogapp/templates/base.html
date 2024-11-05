@@ -12,12 +12,19 @@
         <aside class="sidebar">
             <div class="sidebar-header">
                 <h1 id="title">Mark Kleinhaus</h1>
+                
             </div>
             <nav>
                 <ul>
-                    <li><a href="{% url 'home' %}">Home</a></li>
-                    <!-- Add more navigation links here -->
+                    <h3><a href="{% url 'home' %}">Home</a></h3>
+                    <li>
+                        <ul>
+                            <li><a href="{% url 'current_projects' %}">Current Projects</a></li>
+                            <li><a href="{% url 'past_projects' %}">Past Projects</a></li>
+                        </ul>
+                    </li>
                 </ul>
+                
             </nav>
         </aside>
         <main class="content">

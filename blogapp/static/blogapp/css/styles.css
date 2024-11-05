@@ -38,7 +38,15 @@ nav ul {
 }
 
 nav ul li {
-    margin-bottom: 1rem;
+    margin: 10px 0;
+}
+
+nav ul hr {
+    border-Left: '2px solid black';
+    height: '100px';
+    position: absolute;
+    left: 0;
+    top: 40px;
 }
 
 nav ul li a {
