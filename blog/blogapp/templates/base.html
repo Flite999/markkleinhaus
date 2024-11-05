@@ -4,7 +4,7 @@
 <head>
     <title>{% block title %}Dark Mode is Overrated{% endblock %}</title>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blogapp/css/styles.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
 </head>
 <body>
@@ -24,6 +24,6 @@
             {% block content %}{% endblock %}
         </main>
     </div>
-    <script src="{% static 'js/scripts.js' %}"></script>
+    <script src="{% static 'blogapp/js/scripts.js' %}"></script>
 </body>
 </html>
