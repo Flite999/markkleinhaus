@@ -39,7 +39,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     'markkleinhaus.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    'markkleinhaus-89170d6f543c.herokuapp.com'
 ]
 
 
