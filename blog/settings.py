@@ -39,9 +39,8 @@ DEBUG = os.getenv('DEBUG', 'False')
 
 ALLOWED_HOSTS = [
     'localhost',
-    'markkleinhaus.com',
-    '127.0.0.1',
-    'markkleinhaus-89170d6f543c.herokuapp.com'
+    'www.markkleinhaus.com',
+    '127.0.0.1'
 ]
 
 
