@@ -40,7 +40,8 @@ DEBUG = os.getenv('DEBUG', 'False')
 ALLOWED_HOSTS = [
     'localhost',
     'www.markkleinhaus.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    'markkleinhaus.com'
 ]
 
 
